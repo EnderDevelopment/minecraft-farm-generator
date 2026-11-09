@@ -1,0 +1,13 @@
+name: ItemGenerator
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  itemgenerator:
+    description: Manage item generators.
+    usage: /itemgenerator reload
+    aliases: [ig]
+permissions:
+  itemgenerator.admin:
+    description: Allows managing item generators.
+    default: op
